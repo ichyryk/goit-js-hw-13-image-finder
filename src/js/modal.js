@@ -1,4 +1,6 @@
 import * as basicLightbox from 'basiclightbox';
+import 'basiclightbox/dist/basicLightbox.min.css';
+
 
 function openModal(event) {
   if (event.target.nodeName !== 'IMG') {

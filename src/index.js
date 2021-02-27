@@ -2,6 +2,7 @@ import downloadObserver from './js/downloadObserver';
 import contentObserver from './js/contentObserver';
 import apiService from './js/apiService';
 import openModal from './js/modal';
+import errorRequest from './js/notifyError';
 import cardTpl from './templates/cardTpl.hbs';
 import inputSearchTpl from './templates/inputSearch.hbs';
 import imagesListTpl from './templates/imagesListTpl.hbs';

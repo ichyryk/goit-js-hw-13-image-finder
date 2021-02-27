@@ -7,7 +7,7 @@ function downloadObserver() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const image = entry.target;
-        const src = image.dataset.sourceprew;
+        const src = image.src;
         image.src = src;
         observer.unobserve(image);
       }
